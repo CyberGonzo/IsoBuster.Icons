@@ -2,6 +2,7 @@
 Use custom icons with IsoBuster
 
 It is possible to use your own icons with IsoBuster (>= 5.x)
+
 To do this:
 
 1. Navigate to the IsoBuster "Styles" folder, which was created during installation.

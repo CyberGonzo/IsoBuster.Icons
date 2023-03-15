@@ -39,3 +39,7 @@ For icons that scale well it is sufficient to provide only one dimension.  You c
 For instance, if a large 256x256 icon scales well to 16x16 it is sufficient to only provide the [Group].[Number]-256.png icon.
 Realistically speaking, if your system setting scales 100-175%, 64x64 suffices, but if you use higher scaling settings, larger icons will improve the crispness of display.
 For icons that don't scale well or need slightly different variants in smaller sizes, it is best to provide those dimensions as required.
+
+To test and to see how IsoBuster renders your icons, or to see the embedded icons, and to see all [Group].[Number] names, open "TestIcons.dsk" in IsoBuster.
+
+![image](https://user-images.githubusercontent.com/58023319/225253661-11514d34-2e71-4ddf-bac0-c4dead5b7792.png)

@@ -1,0 +1,150 @@
+﻿
+Status IsoBuster 5.1 (http://www.isobuster.com)
+
+//---------------------------------------------------------------------------
+Group 0, State icons
+//---------------------------------------------------------------------------
+
+#define imMORE_RECORDS          0     // Used to indicate File exists out of Multiple Records
+#define imDOCTORED              1     // Used to indicate File Systems or other objects that are wrong/buggy/compensated etc. but IsoBuster deals with it (to some extent)
+#define imBLUE_E_ARROW          2     // Used to indicate Extended Attributes List
+#define imAPPLE                 3     // Used to indicate Associated files (e.g. Resource files for Apple)
+#define imEMBEDDED       		4     // Used to indicate that the content of the object is located in the structure that describes it, e.g. the ICB or MFT itself
+#define imPHYSICALERRORS        5     // Used to indicate that the object contains Physical errors (sectors that can't be read)
+#define imPUZZLE                6     // Extents
+#define imINTERLEAVED           7     // Used to indicate Interleaved files
+#define imPUZZLE_HALF_RED       8     // File partially located on other volume (or outside disc)
+#define imPUZZLE_EMPTY          9     // File located on other volume (or outside disc) // Embeds
+#define imPUZZLE_HALF_EMPTY     10    // File partially located on other volume
+#define imPUZZLE_YELLOW         11    // Streams
+#define imGEAR					12    // Meta
+
+//---------------------------------------------------------------------------
+Group 1, Media icons
+//---------------------------------------------------------------------------
+
+#define imFOLDER                0     // Used for NOT Selected Folder
+#define imOPENFOLDER            1     // Used for SELECTED Folder
+#define imBLANK_FILE            2     // Used for ALL Files
+#define imSESSION               3     //
+#define imCDROM                 3     // Used to display a CD-ROM device
+#define imAUDIO_TRACK           4     // Used for AUDIO TRACK
+#define imDISC                  5     // Used for CD, DVD, BD
+#define imFLOPPY                6     //
+#define imBOOT                  6     // USed for BOOTABLE File-System
+#define imDATA_TRACK            7     // Used for DATA TRACK
+#define imPARTITION             8     // Partition
+#define imMAGNIFYING_GLASS      9     // Search Results ..
+#define imSD_FLASH              10
+#define imMMC_FLASH             11
+#define imCOMPACT_FLASH         12
+#define imUSBSTICK              13
+#define imHARDDISC              14
+
+//---------------------------------------------------------------------------
+Group 2, Overlay icons
+//---------------------------------------------------------------------------
+
+#define imOVERLAY_DELETED		1    // Deleted File / Dir ... (RECYCLE BIN)
+#define imOVERLAY_GREENCHECK	2    // Green check
+#define imOVERLAY_UNEXPLORED	3    // Unexplored overlay
+
+//---------------------------------------------------------------------------
+Group 3, File System icons
+//---------------------------------------------------------------------------
+
+#define imISO_ICON              0     // Used for ISO File-System
+#define imJOLIET_ICON           1     // Used for JOLIET File-System
+#define imUDF_ICON              2     // Used for UDF File-System
+#define imJOLIET_SHORT_ICON     3     // Used for JOLIET File-System which seems to contain 1 BYTE Characters
+#define imCDI_ICON              4     // Used for CD-i File-System
+#define imROCK_RIDGE_ICON       5     // Used for Rock Ridge file-system
+#define imRECOVERED_UDF_ICON    6     // Used for the RECOVERED UDF file-system
+#define imLF_RECOVERED_UDF_ICON 7     // Used for the RECOVERED UDF file-system (Lost And Found)
+#define imHFS_ICON              8     // Used for (Apple) HFS file System
+#define imHFS_PLUS_ICON         9     // Used for (Apple) HFS Plus file System
+#define imFILE_SIG_ICON         10    // Used for files found based on their signature
+#define imFILE_IFO_ICON         11    // Used for IFO / VOB / VRO / ... file-systems
+#define imFAT_ICON              12    // Used for (Microsoft) FAT file System
+#define imNTFS_ICON             13    // Used for (Microsoft) NTFS file System
+#define imExFAT_ICON            14    // Used for (Microsoft) ExFAT file System
+#define imFATX_ICON             15    // Used for (Microsoft) FATX (XBOX) file System
+#define imXISO_ICON             16    // Used for (Microsoft) XDVDFS (XBOX) file System
+#define imEXT_ICON 				17    // Used for (Linux) EXT file systems
+#define imUFS_ICON 				18    // Used for (Linux/Unix/BSD/Solaris) UFS file systems
+#define imReiser_ICON 			19    // Used for (Linux) UFS file systems
+#define imXFS_ICON 				20    // Used for (Linux) UFS file systems
+#define imRimage_ICON 			21    // Used for (Rimage) Manifest File FS
+#define imGameCube_ICON 		22    // Used for (Nintendo) GameCube file systems
+#define imWii_ICON 				23    // Used for (Nintendo) Wii file systems
+#define	imRomfs_ICON            24    // Used for (Linux) RomFS file systems
+#define	imJFS_ICON            	25    // Used for (Linux/Unix/BSD/Solaris) JFS file systems
+#define	imBTRFS_ICON            26    // Used for (Linux) BTRFS file systems
+#define	imSquashFS_ICON         27    // Used for (Linux) SquashFS file systems
+#define	imReFS_ICON         	28    // Used for (Microsoft) ReFS file systems
+#define	imZFS_ICON         		29    // Used for (Unix/BSD/Solaris/Linux) ZFS file systems
+#define imBeFS_ICON             30	  // Used for (Linux) BeFS
+#define imHIGH_SIERRA_ICON      31    // Used for High Sierra File-System
+#define im3DO_ICON      		32    // Used for 3DO console discs
+#define imMFS_ICON              33    // Used for (Apple) MFS file System
+#define imHDDFS_ICON            34    // Used for (Philips / Magnavox) HDDFS used on HDD Video Recorders
+#define imTFS2_ICON				35    // Used for a whole range of HDD recorders, e.g. Polaroid
+#define imPioneer_ICON			36    // Used for Pioneer HDD recorders (Also some Sony recorders etc.)
+#define imMEIHDFS_ICON			37    // Used for Panasonic HDD recorders (using the MEIHDFS)
+#define imLiteOn_ICON			38    // Used for LiteOn HDD recorders
+#define imAPA_ICON				39    // Used for PlayStation Resource files in an APA Partition
+#define imPSPFS_ICON			40	  // Used for PlayStation PFS file system
+#define imPSISO_ICON			41	  // Used for PlayStation embedded CD/DVD ISO Image
+#define imPSPS2MC_ICON			42	  // Used for PlayStation PS2 Memory Card Image
+#define imPSPSXMC_ICON			43	  // Used for PlayStation PSX Memory Card Image
+#define imDCMC_ICON				44	  // Used for Dreamcast Memory Card Image
+#define imAmiga_OFS_ICON		45	  // Used for Amiga DOS (OFS file system variant)
+#define imAmiga_FFS_ICON		46	  // Used for Amiga DOS (FFS file system variant)
+#define imAmiga_SFS_ICON		47	  // Used for Amiga SFS
+#define imAmiga_PFS_ICON		48	  // Used for Amiga PFS
+#define imThomson_ICON			49	  // Used for Thomson DVR
+#define imPSPS2MC_REC_ICON		50	  // Used Recovered for PlayStation PS2 Memory Card Image
+#define imReplayTV_ICON			51	  // Used for ReplayTV DVR
+#define imGameCubeMC_ICON 		52	  // Used for Nintendo GameCube MC (Memory Card) file systems
+#define imN64MP_ICON 			53	  // Used for Nintendo 64 MP (Memory Pack) file systems
+
+//---------------------------------------------------------------------------
+Group 4, General application icons
+//---------------------------------------------------------------------------
+
+#define imINFORMATION   		0
+#define imHELPICON				1	
+#define imTRASHCAN      		2
+#define imKEYICON				3
+#define imOPENFILE				4
+#define imOPENRECENT			5
+#define imUPDIR         		6
+#define imEXIT					7
+#define imCOMMUNICATION			8
+#define imFILESYSTEMS			9
+#define imLANGUAGE				10
+#define imIMAGEFILES			11
+#define imGUI					12
+#define imONLINECHECK			13
+#define imSEARCHFOLDERS			14
+#define imOPENTRAY				15
+#define imVIDEO         		16
+#define imREFRESH       		17
+#define imREPORTVIEW    		18
+#define imLISTVIEW      		19
+#define imICONVIEW      		20
+#define imARROW_LEFT    		21
+#define imARROW_RIGHT   		22
+#define imBLUE_PLUS     		23
+#define imGEARS					24
+#define imFONT					25
+#define imFONTRESET				26
+#define imTEXT					27
+#define imPRINTER				28
+#define imRICHTEXT				29
+#define imTEXTWRAPPED			30
+#define imTEXTUNWRAPPED			31
+#define imCHECK					32
+#define imCHEVRONRIGHT			33
+#define imCHEVRONDOWN			34
+#define imHEART					35

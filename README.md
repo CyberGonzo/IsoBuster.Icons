@@ -11,30 +11,31 @@ To do this:
   
 2. Create a sub-folder: "Icons"
 
-3. Place *.png files with very specific names in this folder.
+3. Place *.png files with very specific file-names in this folder.
 
 On startup, IsoBuster looks in this folder and loads all the pngs that are named correctly.
+
 The naming convention is:
 [Group].[Number]-[Dimension].png
 
 There are 5 groups:
 
-0. State icons (the additional icons shown on the left hand side of normal icons, in the (right hand side) ListView
+0. State icons (The additional icons shown on the left hand side of normal icons, in the (right hand side) ListView
 1. Media icons (Folder, Partition, CD, ..)
-2. Overlay icons (Deleted, not yet expanded/explored, ..)
+2. Overlay icons (Deleted, Not yet expanded/explored, ..)
 3. File System icons (UDF, NTFS, ..)
 4. General application icons (Help, Refresh, ..)
 
 Depending on the group there are a number of icons.
 
-Per [Group].[Number] IsoBuster tries to load icons with very specific dimensions.
-IsoBuster looks for: 16, 20, 24, 32, 40, 48, 64, 128 and 256
-Other dimensions are ignored.  Obviously 16 means: 16x16, 20 means: 20x20 etc.
+Per [Group].[Number] IsoBuster tries to load icons with various dimensions.
+IsoBuster looks for dimensions: 16, 20, 24, 32, 40, 48, 64, 128 and 256.
+Other dimensions are ignored.  Obviously 16 refers to: 16x16, 20 refers to: 20x20 etc.
 
 During program operation, IsoBuster picks the most appropriate dimension to display.
 This depends on the required size and the system dpi settings. IsoBuster also scales it to the required size on the fly.
 
-For icons that scale well it is sufficient to provide only one or two dimensions.  
+For icons that scale well it is sufficient to provide only one dimension.  You can pick any combination of dimensions that suit the icon and its scaling.
 For instance, if a large 256x256 icon scales well to 16x16 it is sufficient to only provide the [Group].[Number]-256.png icon.
-Realistically speaking, if your system setting scales 100-150%, 64x64 suffices, but if you use higher scaling settings, larger icons will improve the crispness of display.
-For icons that don't scale well or need slightly different variants in the smaller sizes, it is best to provide those dimensions as required.
+Realistically speaking, if your system setting scales 100-175%, 64x64 suffices, but if you use higher scaling settings, larger icons will improve the crispness of display.
+For icons that don't scale well or need slightly different variants in smaller sizes, it is best to provide those dimensions as required.

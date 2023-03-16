@@ -30,7 +30,7 @@ Depending on the group there are a number of icons.
 
 Per [Group].[Number] IsoBuster tries to load icons with various dimensions.
 IsoBuster looks for dimensions: 16, 20, 24, 32, 40, 48, 64, 128 and 256.
-Other dimensions are ignored.  Obviously 16 refers to: 16x16, 20 refers to: 20x20 etc.
+Other dimensions are ignored.  Dimension = Width = Height (e.g. 16 x 16, 32 x 32, ..)
 
 During program operation, IsoBuster picks the most appropriate dimension to display.
 This depends on the required size and the system dpi settings. IsoBuster also scales it to the required size on the fly.

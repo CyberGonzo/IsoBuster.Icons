@@ -1,4 +1,4 @@
-# IsoBuster.Icons
+# IsoBuster Icons
 Use custom icons with IsoBuster
 
 It is possible to use your own icons with IsoBuster (>= 5.x)

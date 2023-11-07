@@ -8,7 +8,7 @@ Extract all icons from the zip file and place them in following folder to enjoy 
     <IsoBuster dir>\Styles\Icons\
 
 If you like the set but no all icons, just delete the ones you don't like and the program embedded ones will be used instead. 
-If you want get rid of all of them, just remove them or rename the "Icons" folder (to for instance "Icons_Graphen").
+If you want to get rid of all of them, just remove them or rename the "Icons" folder (to for instance "Icons_Graphen").
 
 ### LICENSE
 

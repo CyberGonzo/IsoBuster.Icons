@@ -14,7 +14,7 @@ If you want get rid of all of them, just remove them or rename the "Icons" folde
 
 All "Graphen" icons' rights (such as right of use, right of distribution etc.) have been transferred to Smart Projects and Peter Van Hove.
 You are only allowed to use the "Graphen" icons with IsoBuster !
-You are not allowed to use the icons in any other fashion or application, beit commercial or none commercial. 
+You are not allowed to use the icons in any other fashion or application, beit commercial or not. 
 You are not allowed to edit the icons for your own use.  Changed icons don't negate this license.
 
 <br>
